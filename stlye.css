@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "metal-mania";
+  src: url(fonts/Metal_Mania/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: "nunito";
+  src: url(fonts/Nunito/Nunito-VariableFont_wght.ttf)
+}
+.header {
+  text-align: center;
+  font-family: "metal-mania";
+  font-size:100px;
+}
+
+/* Main Page  */
+
+#head:hover {
+  transform: scale(1.2);
+  z-index: 9;
+
+}
+
+#torso:hover { 
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+#right_arm:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+#left_arm:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+#right_leg:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+#left_leg:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+/* Main Page  */
+
+
+
+
+
+/* Head  */
+
+#headbody{
+  background-color: bisque;
+}
+#headpage {
+animation-name: headspin;
+animation-duration: 5000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+
+
+}
+
+@keyframes headspin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+#list {
+  font-family: "nunito";
+  text-align: center;
+}
+ul {
+  list-style: none;
+  line-height: 200%;
+}
+
+#thetable {
+  font-family: "nunito";
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Head  */
+
+/* Torso  */
+#torsobody {
+  background-color: aquamarine;
+}
+#torsopage {
+  animation-name: torsospin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+  
+  }
+  
+  @keyframes torsospin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+/* Torso  */
+
+/* Right Arm  */
+#right_armbody{
+  background-color: yellow;
+}
+#rightarmpage {
+  animation-name: rightarmspin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+  
+  }
+  
+  @keyframes rightarmspin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+/* Right Arm  */
+
+/* Left Arm  */
+#left_armbody{
+  background-color: rgb(254, 111, 111);
+}
+#leftarmpage {
+  animation-name: leftarmspin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+  
+  }
+  
+  @keyframes leftarmspin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+/* Left Arm  */
+
+/* Right Leg  */
+#right_legbody{
+  background-color: rgb(229, 98, 4);
+}
+#rightlegpage {
+  animation-name: rightlegspin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+  
+  }
+  
+  @keyframes rightlegspin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+/* Right Leg  */
+
+/* Left Leg  */
+#left_legbody{
+  background-color: rgb(4, 139, 229);
+}
+#leftlegpage {
+  animation-name: leftlegspin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+  
+  }
+  
+  @keyframes leftlegspin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+/* Left Leg  */
